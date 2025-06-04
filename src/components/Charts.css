@@ -1,0 +1,14 @@
+.chart-container { /* стили для графика*/
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) { /* Адаптивность для экранов меньше 768px */
+  .chart-container {
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 4px; 
+  }
+}
